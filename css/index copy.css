@@ -11,53 +11,55 @@ a {
   text-decoration: none;
   color: #333;
 }
-/* 전체영역 */
 .wrap {
-  width: 1200px;
   margin: 0px auto;
-}
-/* 상단 */
-.header {
-      padding: 20px 20px;
   width: 1200px;
+}
+.header {
+  padding: 30px 20px;
   background-color: black;
 }
 /* 로고영역 */
 .logomenu {
-  /* background-color: aqua; */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+/* 로고 */
 .logo a {
   color: white;
-  font-size: 30px;
+  font-size: 36px;
   font-weight: bold;
 }
 /* 메뉴영역 */
-.menu{
-    /* background-color: rgb(76, 77, 74); */
-    width: 800px;
+.menu {
+  width: 800px;
+  /* background-color: #d49898; */
 }
-.offline{
-    display: flex;
-    justify-content: flex-end;
-  align-items: center;
+.offline {
+  display: flex;
   gap: 30px;
+  justify-content: flex-end;
+align-items: center;
+
+/
 }
-.offline a{
-    color: white;
+.offline a {
+  /* width: 1200px; */
+  color: white;
 }
-.menubar{
-    display: flex;
-    width: 300px;
+.menubar {
+  /* background-color: rgb(70, 73, 73); */
+  display: flex;
+  width: 300px;
   text-align: center;
-   }
-   .menubar li{
-    width: calc(100% / 4);
-   }
-   .login{
+  /* align-items: flex-end; */
+}
+.menubar li {
+  width: calc(100% / 4);
+}
+.login{
     border: 1px solid white;
     border-radius: 5px;
-    padding: 4px 6px; 
-   }
+    padding: 3px 6px;
+}
