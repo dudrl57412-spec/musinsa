@@ -1,25 +1,59 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-ul,li{
-    list-style: none;
+ul,
+li {
+  list-style: none;
 }
-a{
-    text-decoration: none;
-    color: #333;
+a {
+  text-decoration: none;
+  color: #333;
 }
-.wrap{
-    margin: 50px auto;
-    width: 2400px;
-    height: 0px;
+.wrap {
+  margin: 50px auto;
+  width: 1200px;
 }
-.logomenu{
-    
-    background-color: black;
-    color: white;
+.header {
+    padding: 30px 20px;
+  background-color: black;
 }
-.menu{
-    display: flex;
+/* 로고영역 */
+.logomenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+.offline a {
+  /* width: 1200px; */
+  color: white;
+}
+/* 메뉴영역 */
+.menu {
+  width: 800px;
+  /* background-color: #d49898; */
+}
+.offline {
+  display: flex;
+gap: 30px;
+  justify-content: flex-end;
+  /* background-color: aqua; */
+}
+.menubar {
+
+  background-color: rgb(70, 73, 73);
+  display: flex;
+  width: 300px;
+  text-align: center;
+  /* align-items: flex-end; */
+}
+
+.menubar li {
+  width: calc(100% / 4);
 }
