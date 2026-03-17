@@ -18,7 +18,8 @@ a {
 }
 /* 상단 */
 .header {
-      padding: 20px 20px;
+  padding-left: 25px;
+  padding: 20px 20px;
   width: 1200px;
   background-color: black;
 }
@@ -35,29 +36,101 @@ a {
   font-weight: bold;
 }
 /* 메뉴영역 */
-.menu{
-    /* background-color: rgb(76, 77, 74); */
-    width: 800px;
+.menu {
+  /* background-color: rgb(76, 77, 74); */
+  width: 800px;
 }
-.offline{
-    display: flex;
-    justify-content: flex-end;
+.offline {
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
-  gap: 30px;
+  font-weight: bold;
 }
-.offline a{
-    color: white;
+.offline a {
+  color: white;
 }
-.menubar{
-    display: flex;
-    width: 300px;
+.menubar {
+  display: flex;
+  width: 400px;
   text-align: center;
-   }
-   .menubar li{
-    width: calc(100% / 4);
-   }
-   .login{
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 4px 6px; 
-   }
+  margin-left: 0px;
+}
+.menubar li {
+  width: calc(100% / 4);
+  padding-left:;
+}
+.login {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 4px 6px;
+}
+.main {
+  /* background-color: antiquewhite; */
+}
+.main-wrap {
+  /* background-color: rgb(0, 255, 255); */
+  display: flex;
+}
+.mainimg img {
+  width: 100%;
+  display: block;
+}
+.mainimg {
+  position: relative;
+}
+.mainimg .bannerimginfo {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.pdwrap{
+  background-color: #f7f7f7;
+  width: 1200px;
+  padding: 20px;
+}
+.pdlistinfo {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 30px 0px;
+}
+.더보기 {
+  padding: 10px 10px;
+  text-decoration: underline;
+}
+.productlist-wrap {
+  display: flex;
+}
+.pd-img img {
+  width: 100%;
+  display: block;
+}
+.pd-info{
+  padding-top: 4px;
+  background-color: rgb(255, 255, 255);
+}
+.pd-info-list{
+  padding-bottom:10px;
+  padding-left: 12px;
+}
+.pd-info-list > li > b {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.pdsell {
+  color: red;
+  font-weight: bold;
+}
+.pdprice {
+  font-weight: bold;
+}

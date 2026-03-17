@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>무신사</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
@@ -22,10 +29,22 @@
             <div class="offline">
               <a href="#">오프라인 스토어</a>
               <ul class="menubar">
-                <li><a href="#">검색</a></li>
-                <li><a href="#">좋아요</a></li>
-                <li><a href="#">마이</a></li>
-                <li><a href="#">장바구니</a></li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-magnifying-glass"></i> 검색</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fa-solid fa-heart"></i> 좋아요</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-solid fa-user"></i>마이</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-bag-shopping"></i>장바구니</a
+                  >
+                </li>
               </ul>
               <!-- 오른쪽 -->
               <div class="login"><a href="#">로그인/회원가입</a></div>
@@ -73,75 +92,365 @@
             </a>
           </li>
         </ul>
-        <!-- 제품목록 -->
-        <ul class="productlist-wrap">
-          <li>
-            <a href="#">
-              <div class="pd-img">
-                <img src="images/thenorthface.jpg" alt="더노스페이스 " />
-              </div>
-              <div class="pd-info">
-                <ul class="pd-info-list">
-                  <li><b>노스페이스</b></li>
-                  <li>
-                    <span class="pdname"
-                      >NJ3BS02J 화이트라벨 올레마 플렉스 자켓 BLACK</span
-                    >
-                  </li>
-                  <li><span class="pdsell">5%</span></li>
-                  <li><span class="pdprice">169,100원</span></li>
-                </ul>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <div class="pd-img">
-                <img src="images/helinox.jpg" alt="헬리녹스웨어 " />
-              </div>
-              <div class="pd-info">
-                <ul class="pd-info-list">
-                  <li><b>헬리녹스웨어</b></li>
-                  <li><span class="pdname">다잉 입체 카고팬츠_Gray</span></li>
-                  <li><span class="pdsell">5%</span></li>
-                  <li><span class="pdprice">304,000원</span></li>
-                </ul>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <div class="pd-img">
-                <img src="images/jansport.jpg" alt="잔스포츠 " />
-              </div>
-              <div class="pd-info">
-                <ul class="pd-info-list">
-                  <li><b>잔스포츠</b></li>
-                  <li><span class="pdname">트랜스포트팩 RUSSET RED</span></li>
-                  <li><span class="pdsell">15%</span></li>
-                  <li><span class="pdprice">169,100원</span></li>
-                </ul>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <div class="pd-img">
-                <img src="images/espionage.jpg" alt="에스피오나지 " />
-              </div>
-              <div class="pd-info">
-                <ul class="pd-info-list">
-                  <li><b>노스페이스</b></li>
-                  <li>
-                    <span class="pdname">Hooded Light Down Jacket Navy</span>
-                  </li>
-                  <li><span class="pdsell">40%</span></li>
-                  <li><span class="pdprice">169,100원</span></li>
-                </ul>
-              </div>
-            </a>
-          </li>
-        </ul>
+        <!-- 제품목록소개글 -->
+        <div class="pdwrap">
+          <div class="pdlistinfo">
+            <p>고프코어 스타일 브랜드 아이템 추천</p>
+            <span class="더보기"><a href="#">더보기</a></span>
+          </div>
+          <!-- 제품목록 -->
+          <ul class="productlist-wrap">
+            <li>
+              <a href="#">
+                <div class="pd-img">
+                  <img src="images/thenorthface.jpg" alt="더노스페이스 " />
+                </div>
+                <div class="pd-info">
+                  <ul class="pd-info-list">
+                    <li><b>노스페이스</b></li>
+                    <li>
+                      <span class="pdname"
+                        >NJ3BS02J 화이트라벨 올레마 플렉스 자켓 BLACK</span
+                      >
+                    </li>
+                    <li>
+                      <span class="pdsell">5%</span>
+                      <span class="pdprice">169,100원</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="pd-img">
+                  <img src="images/helinox.jpg" alt="헬리녹스웨어 " />
+                </div>
+                <div class="pd-info">
+                  <ul class="pd-info-list">
+                    <li><b>헬리녹스웨어</b></li>
+                    <li>
+                      <span class="pdname">다잉 입체 카고팬츠 <br />Gray</span>
+                    </li>
+                    <li>
+                      <span class="pdsell">5%</span>
+                      <span class="pdprice">304,000원</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="pd-img">
+                  <img src="images/jansport.jpg" alt="잔스포츠 " />
+                </div>
+                <div class="pd-info">
+                  <ul class="pd-info-list">
+                    <li><b>잔스포츠</b></li>
+                    <li>
+                      <span class="pdname">트랜스포트팩 <br />RUSSET RED</span>
+                    </li>
+                    <li>
+                      <span class="pdsell">15%</span>
+                      <span class="pdprice">169,100원</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="pd-img">
+                  <img src="images/espionage.jpg" alt="에스피오나지 " />
+                </div>
+                <div class="pd-info">
+                  <ul class="pd-info-list">
+                    <li><b>에스피오나지</b></li>
+                    <li>
+                      <span class="pdname"
+                        >Hooded Light Down Jacket <br />Navy</span
+                      >
+                    </li>
+                    <li>
+                      <span class="pdsell">40%</span>
+                      <span class="pdprice">169,100원</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <ul class="productlist-wrap">
+            <li>
+              <a href="#">
+                <div class="pd-img">
+                  <img src="images/dickids.jpg" alt=" " />
+                </div>
+                <div class="pd-info">
+                  <ul class="pd-info-list">
+                    <li><b>디키즈</b></li>
+                    <li>
+                      <span class="pdname"
+                        >카도 립스탑 패커블 윈드브레이커 <br />Purple</span
+                      >
+                    </li>
+                    <li>
+                      <span class="pdsell">15%</span>
+                      <span class="pdprice">84,600원</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="pd-img">
+                  <img src="images/mahagrid.jpg" alt="마하그리드 " />
+                </div>
+                <div class="pd-info">
+                  <ul class="pd-info-list">
+                    <li><b>마하그리드</b></li>
+                    <li>
+                      <span class="pdname"
+                        >BASIC LOGO NYLON WINDBREAKER KHAKI(MG2EFMSC00A)</span
+                      >
+                    </li>
+                    <li>
+                      <span class="pdsell">70%</span>
+                      <span class="pdprice">35,700원</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="pd-img">
+                  <img
+                    src="images/musinsastandard2.jpg"
+                    alt="무신사스탠다드 "
+                  />
+                </div>
+                <div class="pd-info">
+                  <ul class="pd-info-list">
+                    <li><b>무신사스탠다드</b></li>
+                    <li>
+                      <span class="pdname"
+                        >[With CTR][시티 레저] 쉘터 윈드브레이커 재킷
+                        [그레이]</span
+                      >
+                    </li>
+                    <li>
+                      <span class="pdsell"></span>
+                      <span class="pdprice">99,900원</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="pd-img">
+                  <img
+                    src="images/musinsastandard1.jpg"
+                    alt="무신사스탠다드 "
+                  />
+                </div>
+                <div class="pd-info">
+                  <ul class="pd-info-list">
+                    <li><b>무신사스탠다드</b></li>
+                    <li>
+                      <span class="pdname"
+                        >[시티 레저] 쉘터 윈드브레이커 재킷 <br />[그레이쉬
+                        베이지]</span
+                      >
+                    </li>
+                    <li>
+                      <span class="pdsell"></span>
+                      <span class="pdprice">99,900원</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="pdwrap">
+          <div class="pdlistinfo">
+            <p>지금 무신사 카테고리 트렌드 <br />데님 팬츠 추천</p>
+            <span class="더보기"><a href="#">더보기</a></span>
+          </div>
+          <!-- 제품목록 -->
+          <ul class="productlist-wrap">
+            <li>
+              <a href="#">
+                <div class="pd-img">
+                  <img src="images/jean1.webp" alt="이티씨이 " />
+                </div>
+                <div class="pd-info">
+                  <ul class="pd-info-list">
+                    <li><b>이티씨이</b></li>
+                    <li>
+                      <span class="pdname"
+                        >KENDRICK REGULAR DENIM PANTS <br>(BLACK)</span
+                      >
+                    </li>
+                    <li>
+                      <span class="pdsell">40%</span>
+                      <span class="pdprice">111,000원</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="pd-img">
+                  <img src="images/jean2.webp" alt="텍스 " />
+                </div>
+                <div class="pd-info">
+                  <ul class="pd-info-list">
+                    <li><b>텍스</b></li>
+                    <li>
+                      <span class="pdname">TX304 커브드 배기 벌룬 데님 <br>(블랙)</span>
+                    </li>
+                    <li>
+                      <span class="pdsell">46%</span>
+                      <span class="pdprice">46,000원</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="pd-img">
+                  <img src="images/jean3.webp" alt="르아르 " />
+                </div>
+                <div class="pd-info">
+                  <ul class="pd-info-list">
+                    <li><b>르아르</b></li>
+                    <li>
+                      <span class="pdname">에브리데이 커브드 데님 팬츠 <br>[블랙]</span>
+                    </li>
+                    <li>
+                      <span class="pdsell">10%</span>
+                      <span class="pdprice">37,800원</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="pd-img">
+                  <img src="images/jean4.webp" alt="51퍼센트 " />
+                </div>
+                <div class="pd-info">
+                  <ul class="pd-info-list">
+                    <li><b>51퍼센트</b></li>
+                    <li>
+                      <span class="pdname"
+                        >Belted Denim Pants <br>Grey</span
+                      >
+                    </li>
+                    <li>
+                      <span class="pdsell">5%</span>
+                      <span class="pdprice">179,550원</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <ul class="productlist-wrap">
+            <li>
+              <a href="#">
+                <div class="pd-img">
+                  <img src="images/jean5.webp" alt="엑스톤즈 " />
+                </div>
+                <div class="pd-info">
+                  <ul class="pd-info-list">
+                    <li><b>엑스톤즈</b></li>
+                    <li>
+                      <span class="pdname"
+                        >XP307 헤리티지 이지 와이드 데님 팬츠 <br>(BLUE)</span
+                      >
+                    </li>
+                    <li>
+                      <span class="pdsell">28%</span>
+                      <span class="pdprice">56,880원</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="pd-img">
+                  <img src="images/jean6.webp" alt="아르반 " />
+                </div>
+                <div class="pd-info">
+                  <ul class="pd-info-list">
+                    <li><b>아르반</b></li>
+                    <li>
+                      <span class="pdname"
+                        >루터스 새깅 플레어 팬츠_솔리드 <br>블랙</span
+                      >
+                    </li>
+                    <li>
+                      <span class="pdsell">20%</span>
+                      <span class="pdprice">135,200원</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="pd-img">
+                  <img src="images/jean7.webp" alt="아르반 " />
+                </div>
+                <div class="pd-info">
+                  <ul class="pd-info-list">
+                    <li><b>아르반</b></li>
+                    <li>
+                      <span class="pdname"
+                        >트리플 리프 커브드 팬츠_트리플 <br>블랙</span
+                      >
+                    </li>
+                    <li>
+                      <span class="pdsell">15%</span>
+                      <span class="pdprice">152,150원</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="pd-img">
+                  <img src="images/jean8.webp" alt="패러다임 필름 " />
+                </div>
+                <div class="pd-info">
+                  <ul class="pd-info-list">
+                    <li><b>패러다임 필름</b></li>
+                    <li>
+                      <span class="pdname"
+                        >펑션 엔지니어 커브드 진 <br>(블랙 인디고)</span
+                      >
+                    </li>
+                    <li>
+                      <span class="pdsell">52%</span>
+                      <span class="pdprice">55,200원</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </main>
       <!-- 하단 -->
       <footer class="footer"></footer>
