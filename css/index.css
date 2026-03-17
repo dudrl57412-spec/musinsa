@@ -46,11 +46,12 @@ a {
 }
 .offline{
   display: flex;
+  justify-content: flex-end;g
 }
 .menubar {
   justify-content: space-between;
   display: flex;
-  width: 800px;
+  width: 600px;
   text-align: center;
   margin-left: 0px;
 }
@@ -58,7 +59,7 @@ a {
   color: white;
 }
 .menubar li {
-  width: calc(100% /5);
+  /* width: calc(100% /5); */
 }
 .menubar .login{
   border: 1px solid white;
