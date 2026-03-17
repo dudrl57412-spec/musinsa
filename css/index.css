@@ -42,7 +42,7 @@ a {
 /* 메뉴영역 */
 .menu {
   /* background-color: rgb(76, 77, 74); */
-  width: 650px;
+  width: 800px;
 }
 .offline{
   display: flex;
@@ -50,7 +50,7 @@ a {
 .menubar {
   justify-content: space-between;
   display: flex;
-  width: 650px;
+  width: 800px;
   text-align: center;
   margin-left: 0px;
 }
@@ -58,7 +58,11 @@ a {
   color: white;
 }
 .menubar li {
-  width: calc(100% /6);
+  width: calc(100% /5);
+}
+.menubar .login{
+  border: 1px solid white;
+  border-radius: 3px;
 }
 /* .login {
   border: 1px solid white;
