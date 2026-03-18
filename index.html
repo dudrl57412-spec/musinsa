@@ -6,32 +6,21 @@
     <title>무신사</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <!-- 전체영역 -->
     <div class="wrap">
-      <!-- 상단 -->
       <header class="header">
-        <!-- 로고영역 -->
         <div class="logomenu">
-
           <div class="logo">
             <a href="#">MUSINSA</a>
           </div>
-          <!-- 메뉴영역 -->
           <div class="menu">
-            <!-- 왼쪽 -->
             <div class="offline">
               <ul class="menubar">
-                <li>
-                  <a href="#">오프라인 스토어</a>
-                </li>
+                <li><a href="#">오프라인 스토어</a></li>
                 <li>
                   <a href="#"
                     ><i class="fa-solid fa-magnifying-glass"></i> 검색</a
@@ -41,25 +30,49 @@
                   <a href="#"><i class="fa-solid fa-heart"></i> 좋아요</a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa-solid fa-user"></i>마이</a>
+                  <a href="#"><i class="fa-solid fa-user"></i> 마이</a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa-solid fa-bag-shopping"></i>장바구니</a>
-                </li>
-                <li class="login">
                   <a href="#"
-                    >로그인 / 회원가입</a
+                    ><i class="fa-solid fa-bag-shopping"></i> 장바구니</a
                   >
                 </li>
+                <li class="login"><a href="#">로그인 / 회원가입</a></li>
               </ul>
+            </div>
           </div>
         </div>
-        </div>
-        <!-- 검색창 -->
+
         <div class="search">
-          <form action=""><input type="search" name id="search" /></form>
+          <form
+            action=""
+            style="position: relative; width: 1160px; margin: 8px auto 0"
+          >
+            <input
+              type="search"
+              name=""
+              id="search"
+              placeholder="  검색어를 입력하세요"
+            />
+            <button type="submit" class="search-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#999"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </form>
         </div>
-        <!-- 하단메뉴 -->
+
         <div class="undermenu">
           <ul class="undermenulist">
             <li><a href="#">콘텐츠</a></li>
@@ -67,16 +80,20 @@
             <li><a href="#">랭킹</a></li>
             <li><a href="#">세일</a></li>
             <li><a href="#">발매</a></li>
+            <li>
+              <a href="#">26SS <br />신상</a>
+            </li>
+            <li>
+              <a href="#">musinsa <br />standard</a>
+            </li>
           </ul>
         </div>
       </header>
-      <!-- 중단 -->
+
       <main class="main">
-        <!-- 비주얼 -->
         <ul class="main-wrap">
           <li>
             <a href="#">
-              <!-- 이미지영역 -->
               <div class="mainimg">
                 <img src="images/banner3.png" alt="미세키서울" />
                 <span class="bannerimginfo"
@@ -87,7 +104,6 @@
           </li>
           <li>
             <a href="#">
-              <!-- 이미지영역 -->
               <div class="mainimg">
                 <img src="images/banner2.png" alt="노이어" />
                 <span class="bannerimginfo"
@@ -99,7 +115,6 @@
           </li>
           <li>
             <a href="#">
-              <!-- 이미지영역 -->
               <div class="mainimg">
                 <img src="images/banner1.png" alt="쿠어" />
                 <span class="bannerimginfo"
@@ -110,18 +125,17 @@
             </a>
           </li>
         </ul>
-        <!-- 제품목록소개글 -->
+
         <div class="pdwrap">
           <div class="pdlistinfo">
             <p>고프코어 스타일 브랜드 아이템 추천</p>
             <span class="plus"><a href="#">더보기</a></span>
           </div>
-          <!-- 제품목록 -->
           <ul class="productlist-wrap">
             <li>
               <a href="#">
                 <div class="pd-img">
-                  <img src="images/thenorthface.jpg" alt="더노스페이스 " />
+                  <img src="images/thenorthface.jpg" alt="더노스페이스" />
                 </div>
                 <div class="pd-info">
                   <ul class="pd-info-list">
@@ -142,7 +156,7 @@
             <li>
               <a href="#">
                 <div class="pd-img">
-                  <img src="images/helinox.jpg" alt="헬리녹스웨어 " />
+                  <img src="images/helinox.jpg" alt="헬리녹스웨어" />
                 </div>
                 <div class="pd-info">
                   <ul class="pd-info-list">
@@ -161,7 +175,7 @@
             <li>
               <a href="#">
                 <div class="pd-img">
-                  <img src="images/jansport.jpg" alt="잔스포츠 " />
+                  <img src="images/jansport.jpg" alt="잔스포츠" />
                 </div>
                 <div class="pd-info">
                   <ul class="pd-info-list">
@@ -180,7 +194,7 @@
             <li>
               <a href="#">
                 <div class="pd-img">
-                  <img src="images/espionage.jpg" alt="에스피오나지 " />
+                  <img src="images/espionage.jpg" alt="에스피오나지" />
                 </div>
                 <div class="pd-info">
                   <ul class="pd-info-list">
@@ -203,7 +217,7 @@
             <li>
               <a href="#">
                 <div class="pd-img">
-                  <img src="images/dickids.jpg" alt=" " />
+                  <img src="images/dickids.jpg" alt="디키즈" />
                 </div>
                 <div class="pd-info">
                   <ul class="pd-info-list">
@@ -224,7 +238,7 @@
             <li>
               <a href="#">
                 <div class="pd-img">
-                  <img src="images/mahagrid.jpg" alt="마하그리드 " />
+                  <img src="images/mahagrid.jpg" alt="마하그리드" />
                 </div>
                 <div class="pd-info">
                   <ul class="pd-info-list">
@@ -245,18 +259,14 @@
             <li>
               <a href="#">
                 <div class="pd-img">
-                  <img
-                    src="images/musinsastandard2.jpg"
-                    alt="무신사스탠다드 "
-                  />
+                  <img src="images/musinsastandard2.jpg" alt="무신사스탠다드" />
                 </div>
                 <div class="pd-info">
                   <ul class="pd-info-list">
                     <li><b>무신사스탠다드</b></li>
                     <li>
                       <span class="pdname"
-                        >[With CTR][시티 레저] 쉘터 윈드브레이커 재킷
-                        [그레이]</span
+                        >[시티 레저] 쉘터 윈드브레이커 재킷 [그레이]</span
                       >
                     </li>
                     <li>
@@ -270,10 +280,7 @@
             <li>
               <a href="#">
                 <div class="pd-img">
-                  <img
-                    src="images/musinsastandard1.jpg"
-                    alt="무신사스탠다드 "
-                  />
+                  <img src="images/musinsastandard1.jpg" alt="무신사스탠다드" />
                 </div>
                 <div class="pd-info">
                   <ul class="pd-info-list">
@@ -294,17 +301,17 @@
             </li>
           </ul>
         </div>
+
         <div class="pdwrap">
           <div class="pdlistinfo">
             <p>지금 무신사 카테고리 트렌드 <br />데님 팬츠 추천</p>
             <span class="plus"><a href="#">더보기</a></span>
           </div>
-          <!-- 제품목록 -->
           <ul class="productlist-wrap">
             <li>
               <a href="#">
                 <div class="pd-img">
-                  <img src="images/jean1.webp" alt="이티씨이 " />
+                  <img src="images/jean1.webp" alt="이티씨이" />
                 </div>
                 <div class="pd-info">
                   <ul class="pd-info-list">
@@ -325,7 +332,7 @@
             <li>
               <a href="#">
                 <div class="pd-img">
-                  <img src="images/jean2.webp" alt="텍스 " />
+                  <img src="images/jean2.webp" alt="텍스" />
                 </div>
                 <div class="pd-info">
                   <ul class="pd-info-list">
@@ -346,7 +353,7 @@
             <li>
               <a href="#">
                 <div class="pd-img">
-                  <img src="images/jean3.webp" alt="르아르 " />
+                  <img src="images/jean3.webp" alt="르아르" />
                 </div>
                 <div class="pd-info">
                   <ul class="pd-info-list">
@@ -367,7 +374,7 @@
             <li>
               <a href="#">
                 <div class="pd-img">
-                  <img src="images/jean4.webp" alt="51퍼센트 " />
+                  <img src="images/jean4.webp" alt="51퍼센트" />
                 </div>
                 <div class="pd-info">
                   <ul class="pd-info-list">
@@ -388,7 +395,7 @@
             <li>
               <a href="#">
                 <div class="pd-img">
-                  <img src="images/jean5.webp" alt="엑스톤즈 " />
+                  <img src="images/jean5.webp" alt="엑스톤즈" />
                 </div>
                 <div class="pd-info">
                   <ul class="pd-info-list">
@@ -409,7 +416,7 @@
             <li>
               <a href="#">
                 <div class="pd-img">
-                  <img src="images/jean6.webp" alt="아르반 " />
+                  <img src="images/jean6.webp" alt="아르반" />
                 </div>
                 <div class="pd-info">
                   <ul class="pd-info-list">
@@ -430,7 +437,7 @@
             <li>
               <a href="#">
                 <div class="pd-img">
-                  <img src="images/jean7.webp" alt="아르반 " />
+                  <img src="images/jean7.webp" alt="아르반" />
                 </div>
                 <div class="pd-info">
                   <ul class="pd-info-list">
@@ -451,7 +458,7 @@
             <li>
               <a href="#">
                 <div class="pd-img">
-                  <img src="images/jean8.webp" alt="패러다임 필름 " />
+                  <img src="images/jean8.webp" alt="패러다임 필름" />
                 </div>
                 <div class="pd-info">
                   <ul class="pd-info-list">
@@ -472,8 +479,52 @@
           </ul>
         </div>
       </main>
-      <!-- 하단 -->
-      <footer class="footer"></footer>
+
+      <footer class="footer">
+        <div class="footer-inner">
+          <div class="footer-info">
+            <p class="copyright">© MUSINSA ALL RIGHTS RESERVED</p>
+            <p class="company-details">
+              (주) 무신사 | 대표자 : 조만호, 박준모 | 주소 : 서울특별시 성동구
+              아차산로 13길 11, 1층 (성수동2가, 무신사캠퍼스 엔1) | 호스팅사업자
+              : (주)무신사 | 통신판매업 : 2022-서울성동-01952 | 사업자등록번호 :
+              211-88-79575(<a href="#">사업자정보확인</a>)
+            </p>
+            <p class="disclaimer">
+              당사는 고객님이 현금 결제한 금액에 대해 우리은행과 채무지급보증
+              계약을 체결하여 안전거래를 보장하고 있습니다.
+              <a href="#">서비스 가입사실 확인</a>
+            </p>
+            <p class="notice">
+              일부 상품의 경우 주식회사 무신사는 통신판매의 당사자가 아닌
+              통신판매중개자로서 상품, 상품정보, 거래에 대한 책임이 제한될 수
+              있으므로, 각 상품 페이지에서 구체적인 내용을 확인하시기 바랍니다.
+            </p>
+          </div>
+
+          <ul class="footer-links">
+            <li>
+              <a href="#"><b>개인정보처리방침</b></a>
+            </li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">결제대행 위탁사</a></li>
+            <li><a href="#">분쟁해결기준</a></li>
+            <li><a href="#">영상정보처리기기 운영·관리방침</a></li>
+          </ul>
+
+          <ul class="footer-certs">
+            <li><a href="#">윤리·준법경영 국제 표준 통합 인증</a></li>
+            <li><a href="#">안전보건경영시스템 국제 인증</a></li>
+          </ul>
+
+          <div class="footer-social">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
