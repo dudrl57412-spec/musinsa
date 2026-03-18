@@ -23,8 +23,10 @@ a {
 
 /* 3. Header Section */
 .header {
-  padding: 10px 20px;
-  height: 155px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  height: 150px;
   background-color: black;
 }
 
@@ -113,6 +115,14 @@ a {
 .undermenulist li a {
   color: #dddddd;
   font-size: 15px;
+}
+.undermenulist li a.ss {
+  color: rgb(90, 106, 250);
+  font-weight: 1000;
+}
+.undermenulist li a.mt {
+  color: rgb(255, 24, 43);
+  font-weight: 1000;
 }
 
 /* 6. Image Hover Effects (중복 제거) */
